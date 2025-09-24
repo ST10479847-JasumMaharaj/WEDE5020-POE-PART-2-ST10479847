@@ -1,0 +1,79 @@
+/*general styling throughout all pages */
+body {
+  font-family: 'Bahnschrift', sans-serif;
+  background-color: #fff8f2;
+  margin: 0;
+  padding: 0;
+}
+.nav {
+    list-style-type: none;           
+    margin: 0;                    
+    padding: 0;                   
+    background: linear-gradient(90deg, #f3d570, #f3d570); 
+    overflow: hidden;                    
+    box-shadow: 0 4px 6px rgba(65, 64, 64, 0.1); 
+}
+/*styling for the navigation panel for the font and such*/
+ul.nav li a {
+    display: block;                   
+    color: #700505;                    
+    text-decoration: none;          
+    padding: 14px 20px;                
+    font-weight: bold;                   
+    transition: background-color 0.3s, color 0.3s; 
+}
+/*displays the pages horizontally*/
+ul.nav li {
+    display: inline-block;    
+}
+/*the colour of each tab will change when you hover over it*/
+ul.nav li a:hover {
+    background-color: #b37c35;         
+    color: #5e0404;                         
+    border-radius: 8px;                  
+}
+
+/*css styling for the custom order page */
+
+
+body {
+  background-image: url('https://i.pinimg.com/736x/22/30/34/223034fc04ea08b556fb7acbec1fe136.jpg');
+}
+
+header {
+  background: #f7c6c7;
+  padding: 15px;
+  text-align: center;
+}
+
+form {
+  max-width: 400px;
+  max-height: 700px;
+  margin: auto;
+  background: #fff;
+  padding: 20px;
+  border-radius: 14px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+form label {
+  display: block;
+  margin: 10px 0 5px;
+}
+
+form select {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+}
+ 
+button {
+  margin-top: 15px;
+  padding: 10px 20px;
+  background-color: #d9a679;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 1rem;
+}
