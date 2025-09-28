@@ -106,21 +106,23 @@ and design of the website.
 
 Timeline
 • Proposals completed and submitted – 27/08/2025
+
 • Website completed and submitted by - 29/09/2025
 
 
 File structure:
+
 4bakers-website
 │
-├── index.html # Home page
-├── about.html # About Us page
-├── menu.html # Menu page
-├── custom-order.html # Custom Order page
-├── order-online.html # Order Online page
-├── reviews.html # Customer Reviews page
-├── contact.html # Contact Us page
-├── style.css # External stylesheet
-└── README.md # Project documentation
+├── index.html # Home page <br>
+├── about.html # About Us page <br>
+├── menu.html # Menu page <br>
+├── custom-order.html # Custom Order page <br>
+├── order-online.html # Order Online page <br>
+├── reviews.html # Customer Reviews page <br>
+├── contact.html # Contact Us page <br>
+├── style.css # External stylesheet <br>
+└── README.md # Project documentation <br>
 
 
 Changelog:
