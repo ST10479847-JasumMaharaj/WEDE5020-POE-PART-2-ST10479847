@@ -12,7 +12,7 @@ p {
   font-weight: bold;     /* make it bold and more visuaaly appealing*/
 }
 
-    @media (min-width: 1025px) {
+  
       .nav {
     list-style-type: none;           
     margin: 0;                    
@@ -242,4 +242,81 @@ form input, form textarea, form select {
   margin-bottom: 8px;
 }
 
+
+
+
+/* using media queries for sizing: Mobile (max 600px) */
+@media (max-width: 600px) {
+  nav ul {
+    flex-direction: column;
+    text-align: center;
+  }
+  nav ul li a {
+    padding: 12px;
+  }
+
+  header h1 {
+    font-size: 22px;
+  }
+
+  .container {
+    width: 95%;
+    padding: 10px;
+  }
+
+  .cart table, .cart th, .cart td {
+    font-size: 14px;
+  }
+
+  .order-form {
+    width: 95%;
+    padding: 15px;
+  }
+
+  .order-form input, 
+  .order-form textarea, 
+  .order-form select {
+    font-size: 14px;
+  }
+
+  .menu-grid {
+    grid-template-columns: 1fr; /* stack menu items */
+  }
+}
+
+/* using media queries for sizing: Tablets (601px - 1024px) */
+@media (min-width: 601px) and (max-width: 1024px) {
+  nav ul {
+    justify-content: space-around;
+  }
+
+  header h1 {
+    font-size: 26px;
+  }
+
+  .order-form {
+    width: 80%;
+  }
+
+  .menu-grid {
+    grid-template-columns: repeat(2, 1fr); /* 2 columns */
+  }
+}
+/* using media queries for sizing: Desktops (1025px and up) */
+@media (min-width: 1025px) {
+  nav ul {
+    justify-content: space-between;
+  }
+
+  header h1 {
+    font-size: 32px;
+  }
+
+  .order-form {
+    width: 60%;
+  }
+
+  .menu-grid {
+    grid-template-columns: repeat(3, 1fr); /* 3 columns */
+  }
 }

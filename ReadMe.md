@@ -1,4 +1,6 @@
-Introduction
+Introduction:
+
+
 4 Bakers is a bakery dedicated to delivering fresh, handcrafted baked goods made
 with love and care. We specialize in a variety of breads, pastries, cakes, and
 specialty items that bring people together through the joy of delicious baked goods.
@@ -12,21 +14,24 @@ with us.
 Purpose
 The purpose of 4 Bakers is to bring warmth and joy to our community by providing
 high-quality baked goods that are affordable, flavourful, and made fresh daily.
+
+
 Target Audience
- Individuals and families looking for fresh, daily baked goods
- Local customers who appreciate artisan baking and handmade treats
- Event organizers needing custom cakes and catering for special occasions
- Cafés, restaurants, or offices looking for wholesale baked goods
+- Individuals and families looking for fresh, daily baked goods
+- Local customers who appreciate artisan baking and handmade treats
+- Event organizers needing custom cakes and catering for special occasions
+- Cafés, restaurants, or offices looking for wholesale baked goods
 Goals of the Business
- Provide a wide variety of delicious, freshly baked items using high-quality
+- Provide a wide variety of delicious, freshly baked items using high-quality
 ingredients
- Build strong relationships with our customers through excellent service and
+- Build strong relationships with our customers through excellent service and
 consistency
- Offer convenient online ordering and delivery options to reach more
+- Offer convenient online ordering and delivery options to reach more
 customers
- Create a warm and welcoming brand experience in-store and online
- Support local events, businesses, and causes through partnerships and
+- Create a warm and welcoming brand experience in-store and online
+- Support local events, businesses, and causes through partnerships and
 baked donations
+
 
 Brief History
 4 Bakers was founded by a team of four siblings who shared a passion for baking
@@ -37,58 +42,86 @@ flavours, 4 Bakers continues to grow by focusing on quality, community, and
 customer satisfaction. We aim to be more than just a bakery, we want to be part of
 every celebration and everyday moment
 
+
 Website Goals
- Present our full menu of baked goods with mouth-watering images and
+- Present our full menu of baked goods with mouth-watering images and
 descriptions
- Enable customers to place online orders for pick-up or delivery
- Share our story, values, and commitment to quality baking
- Offer a custom cake order form and event catering request feature
- Showcase customer reviews and feedback
- Share baking tips, seasonal specials, and promotions to engage visitors
+- Enable customers to place online orders for pick-up or delivery
+- Share our story, values, and commitment to quality baking
+- Offer a custom cake order form and event catering request feature
+- Showcase customer reviews and feedback
+- Share baking tips, seasonal specials, and promotions to engage visitors
+
 
 Web Features and Functionality
 Homepage:
- About Us: Our story, team, and baking philosophy
- Menu: Detailed categories for breads, pastries, cakes, cookies, and
+About Us: Our story, team, and baking philosophy
+- Menu: Detailed categories for breads, pastries, cakes, cookies, and
 beverages
- Order Online: A form for customers to place orders for pick-up or delivery
- Custom Orders: Request forms for cakes, catering, or special events
- Customer Reviews: Testimonials and photo submissions from happy
+- Order Online: A form for customers to place orders for pick-up or delivery
+- Custom Orders: Request forms for cakes, catering, or special events
+- Customer Reviews: Testimonials and photo submissions from happy
 customers
- Contact Us: Map, email, phone number, and social media links
+- Contact Us: Map, email, phone number, and social media links
+
 
 Design and User Experience
- Colour Scheme: Warm tones like cream, brown, and pastel pinks to reflect a
+- Colour Scheme: Warm tones like cream, brown, and pastel pinks to reflect a
 cozy, welcoming bakery atmosphere
 
+
 Typography:
- Font: Bahnschrift Semibold / Aptos Black
- Hierarchy: Clear headings for product categories, readable body text
+- Font: Bahnschrift Semibold / Aptos Black
+- Hierarchy: Clear headings for product categories, readable body text
 for descriptions
 
+
 Layout and Design:
- A visually rich layout with high-quality food images
- Clear product sections, intuitive buttons, and mobile-friendly design
- User Experience Considerations:
- Simple, clear navigation between menu, order, and contact pages
- Mobile optimization for customers placing orders on-the-go
- Secure, easy-to-fill forms for orders and custom requests
- Visual feedback (e.g., pop-ups or confirmation messages) after form
+- A visually rich layout with high-quality food images
+- Clear product sections, intuitive buttons, and mobile-friendly design
+- User Experience Considerations:
+- Simple, clear navigation between menu, order, and contact pages
+- Mobile optimization for customers placing orders on-the-go
+- Secure, easy-to-fill forms for orders and custom requests
+- Visual feedback (e.g., pop-ups or confirmation messages) after form
 submissions
 
+
 Budget:
- Estimated Cost: R5000 – R20,000. The budget will be dependent on the features
+- Estimated Cost: R5000 – R20,000. The budget will be dependent on the features
 and design of the website.
- Technical Requirements
+
+
+-Technical Requirements
 • HTML
+
 • CSS
+
 • JavaScript
+
 • TypeScript
+
 • Testing on Chrome
+
 
 Timeline
 • Proposals completed and submitted – 27/08/2025
 • Website completed and submitted by - 29/09/2025
+
+
+File structure:
+4bakers-website
+│
+├── index.html # Home page
+├── about.html # About Us page
+├── menu.html # Menu page
+├── custom-order.html # Custom Order page
+├── order-online.html # Order Online page
+├── reviews.html # Customer Reviews page
+├── contact.html # Contact Us page
+├── style.css # External stylesheet
+└── README.md # Project documentation
+
 
 Changelog:
 BASED ON FEEDBACK FROM PART 1:
@@ -106,14 +139,20 @@ added all pages with navigation links only and pushed to github
 -24/09/2025
 i did the custom order page with css styling and pushed to github
 
-28/09/2025
+-28/09/2025
 i completed the homepage and customer reviews page with css styling and pushed to github. I also added the readme file. 
-At 13:21, i updated the read me file with regards to the layout. At 19:22, I completed the menu page and contact us page with css styling and added minor changes to the other pages with regards to css styling and pushed to github. At 20:21 i completed the order online page with css styling and pushed to github.
 
+At 13:21, i updated the read me file with regards to the layout.
+At 19:22, I completed the menu page and contact us page with css styling and added minor changes to the other pages with regards to css styling and pushed to github. At 20:21 i completed the order online page with css styling and pushed to github.
+At 20:27 i pushed this change log that i added to github.
+At 20:43, i added media queries for a responsive design for tablets and phones with the help of w3schools. i also added the reference in the reference list.
+At 20:51 i added a footer on each page with copyright information.
+At 20:55 i added a file structure.
 
 
 
 References:
+
 
 Reddit, n.d. How do you measure the success of your website in terms of user
 experience and conversions? r/digital_marketing. Available at:
@@ -139,6 +178,9 @@ Available at: South Africa’s children - Making-A-Difference.co.za
 
 Stack Overflow, 19 November 2023, How do I embed Google Maps url to website using html? Available at:
 https://stackoverflow.com/questions/54264689/how-do-i-embed-google-maps-url-to-website-using-html
+[Accessed 28 September 2025]
+
+w3Schools, CSS Media Queries, Available at: https://www.w3schools.com/css/css3_mediaqueries.asp
 [Accessed 28 September 2025]
 
 
