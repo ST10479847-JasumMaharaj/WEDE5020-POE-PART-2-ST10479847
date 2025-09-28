@@ -90,6 +90,26 @@ Timeline
 • Proposals completed and submitted – 27/08/2025
 • Website completed and submitted by - 29/09/2025
 
+Changelog:
+BASED ON FEEDBACK FROM PART 1:
+-I have added the readme on github, which i did not include in part 1
+-I have included a changelog, which i did not include in part 1
+-I have included more content on each page than in part one
+-I have added menu links on each page to navigate through the website in bold.
+-I have added multiple comments/descriptive comments throughout my code, which i did not include in part 1
+-Whilst i did include multiple references in part 1, i have added more in part 2.
+-i also included many html tags for the layouts, which i was lacking in part 1
+
+-23/09/2025
+added all pages with navigation links only and pushed to github
+
+-24/09/2025
+i did the custom order page with css styling and pushed to github
+
+28/09/2025
+i completed the homepage and customer reviews page with css styling and pushed to github. I also added the readme file. 
+At 13:21, i updated the read me file with regards to the layout. At 19:22, I completed the menu page and contact us page with css styling and added minor changes to the other pages with regards to css styling and pushed to github. At 20:21 i completed the order online page with css styling and pushed to github.
+
 
 
 
