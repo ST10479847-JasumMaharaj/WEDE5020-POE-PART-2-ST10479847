@@ -1,4 +1,4 @@
-Introduction
+#Introduction
 4 Bakers is a bakery dedicated to delivering fresh, handcrafted baked goods made
 with love and care. We specialize in a variety of breads, pastries, cakes, and
 specialty items that bring people together through the joy of delicious baked goods.
