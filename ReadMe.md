@@ -90,7 +90,15 @@ Timeline
 • Proposals completed and submitted – 27/08/2025
 • Website completed and submitted by - 29/09/2025
 
+Changelog:
+
+
+
+
+
+
 References:
+
 Reddit, n.d. How do you measure the success of your website in terms of user
 experience and conversions? r/digital_marketing. Available at:
 https://www.reddit.com/r/digital_marketing/comments/1fdkg7s
@@ -113,6 +121,9 @@ Difference
 Available at: South Africa’s children - Making-A-Difference.co.za
 [Accessed 25 August 2025]
 
+Stack Overflow, 19 November 2023, How do I embed Google Maps url to website using html? Available at:
+https://stackoverflow.com/questions/54264689/how-do-i-embed-google-maps-url-to-website-using-html
+[Accessed 28 September 2025]
 
 
 IMAGES
@@ -156,3 +167,37 @@ Pinterest, (n.d), Aesthetic pastries, Available at:
 https://i.pinimg.com/736x/22/30/34/223034fc04ea08b556fb7acbec1fe136.jpg
 Accessed 24/09/2025
 
+Pinterest, (n.d), Classic French Croissants 101 Guide, Available at: https://i.pinimg.com/1200x/67/ec/82/67ec827367843769e10f87c367e42da2.jpg
+Accessed 28/09/2025
+
+Pinterest, (n.d), Eggless Snowball Recipe
+Available at: https://i.pinimg.com/1200x/31/3c/e9/313ce9e415c089d0a6ec508a7daba0f2.jpg
+Accessed 28/09/2025
+
+Pinterest, (n.d), Plain Scones
+Available at: https://i.pinimg.com/1200x/98/e4/b5/98e4b51d9bb3cf2562c2e292ebec627d.jpg
+Accessed 28/09/2025
+
+Pinterest, (n.d), Chewy Chocolate Chip Cookies | Soft, Thick & Delicious, Available at: https://i.pinimg.com/1200x/08/44/d6/0844d67f8b4949d617d6e5efb850be36.jpg
+Accessed 28/09/2025
+
+Pinterest, (n.d), Christmas Fruit Cake, Available at: https://i.pinimg.com/736x/6f/da/fe/6fdafe099ef71cf0ed848b23aa911dc3.jpg
+Accessed 28/09/2025
+
+Pinterest, (n.d), Indulge in a Classic Red Velvet Cake, Available at: https://i.pinimg.com/1200x/73/41/18/7341181303ac8fd7aa5dcb48a045d491.jpg
+Accessed 28/09/2025
+
+Pinterest, (n.d), Matilda's Chocolate Cake, Available at: https://i.pinimg.com/1200x/04/e2/ae/04e2ae85914a1c691f3477df4144c351.jpg
+Accessed 28/09/2025
+
+Pinterest, (n.d), The BEST Carrot Cake with Brown Butter Cream Cheese Frosting Available at: https://i.pinimg.com/1200x/68/7c/69/687c69d53bb573558a9cc8c7c1f4362e.jpg
+Accessed 28/09/2025
+
+Pinterest, (n.d), Pin on Cakes, Available at: https://i.pinimg.com/736x/ac/75/da/ac75da8213a57d85ec01d47cca72d7f3.jpg
+Accessed 28/09/2025
+
+Pinterest, (n.d), Incredibly Moist Vanilla Bundt Cake - Munaty Cooking, Available at: https://i.pinimg.com/736x/25/74/d4/2574d4242787e13fb0b3622d3ceb257d.jpg
+Accessed 28/09/2025
+
+Pinterest, (n.d), Pineapple Upside Down Cake-Simply Scratch, Available at: https://i.pinimg.com/1200x/10/a3/cb/10a3cbd0fc6e93cc6dd329ac48c1db45.jpg
+Accessed 28/09/2025

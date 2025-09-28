@@ -7,7 +7,7 @@ body {
   padding: 0;
 }
 p {
-  background-color: rgb(250, 250, 163); /*highlights the text through out the website so that it is more visible*/
+  background-color: #f0cc56; /*highlights the text through out the website so that it is more visible*/
   font-size: 18px;       /* bigger text */
   font-weight: bold;     /* make it bold and more visuaaly appealing*/
 }
@@ -41,10 +41,11 @@ ul.nav li a:hover {
 /*background image for the website*/
 body {
   background-image: url('https://i.pinimg.com/736x/22/30/34/223034fc04ea08b556fb7acbec1fe136.jpg');
-  background-size: cover;
 }
 
 
+
+/*===============================================================================================*/
 /*css styling for the home page */
 .image-container {
   display: flex;
@@ -55,35 +56,76 @@ body {
 .header {
     margin: 1.25rem 0;
     color: #2e2827;
-    background-color: #f3ce9e;
+    background-color: #ffe15c;
 }
 .changes {
    font-size: larger; /*more clear to the user*/
 }
 
+
+/*============================================================================================*/
+/*css styling for the about us page */
+h1 {
+  color: #2e2827;
+  font-weight: lighter; /*lighter font weight to break the bold paragraph text*/
+}
+.img-container {
+  display: flex;
+  justify-content: center; /* centers horizontally */
+  align-items: center;     /* centers vertically */         
+}
+
+
+/*==============================================================================================*/
+/*menu page styling*/
+.menu{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* centers items */
+  gap: 20px; /* spacing between items */
+  margin: 20px;
+}
+/*styling for the forms*/
+.menu-item {
+  border: 2px solid #a55d0b;
+  border-radius: 10px;
+  padding: 15px;
+  text-align: center;
+  width: 250px; /* fixed size */
+  background-color: #ffffff;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+/*styling for the menu images*/
+.menu-item img {
+  width: 90%;
+  border-radius: 10px;
+}
+
+/*===========================================================================================*/
+
 /*css styling for the custom order page */
 
 header {
-  background: #fffab6;
-  padding: 15px;
-  text-align: center;
+  padding: 10px;
+  text-align: center; /*text is central*/
 }
 
 form {
   max-width: 400px;
   max-height: 700px;
-  margin: auto;
-  background: #fff;
-  padding: 20px;
-  border-radius: 14px;
+  margin: auto; /*keeps the form central*/
+  background: #faf893;
+  padding: 20px; /*even spaces around input areas*/
+  border-radius: 14px; /*rounded corners*/
   box-shadow: 0 4px 6px rgba(0,0,0,0.1);
 }
-
+/*the message box and button are seperated from each other*/
 form label {
   display: block;
   margin: 10px 0 5px;
 }
 
+/*allows for the input boxes to be big and easily accessible for the users*/
 form select {
   width: 100%;
   padding: 8px;
@@ -93,19 +135,46 @@ form select {
 button {
   margin-top: 15px;
   padding: 10px 20px;
-  background-color: #d9a679;
-  color: white;
-  border: none;
-  border-radius: 6px;
-  cursor: pointer;
-  font-size: 1rem;
+  background-color: #ffe600; /*bright yellow to make the box visible*/
+  color: rgb(0, 0, 0); /*black font to make the text visible*/
+  border-radius: 9px; /*the buttons border has slightly rounded corners to make it neater*/
+  cursor: pointer; /*changes the cursor shape to the pointy finger when hovering over the button*/
+  font-size: 1.1rem; /*slightly larger font for better visibilty*/
 }
-/*css styling for the about us page */
-h1 {
-  color: #2e2827;
+
+
+/*================================================================================================*/
+
+/*css styling for the contact us page */
+.map {
+  margin-top: 20px;
+  text-align: center;
 }
-.img-container {
-  display: flex;
-  justify-content: center; /* centers horizontally */
-  align-items: center;     /* centers vertically */         
+/*makes the map visually appealing*/
+.map iframe {
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.2);
 }
+
+h1, h2, h3 {
+  background-color: #f3d570;
+  font-weight: lighter; /*lighter font weight to break the bold paragraph text*/
+}
+
+.ContactUs {
+   max-width: 400px;
+  margin: auto;
+  background: #faf893;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+/*makes the input areas equally sized and spaced out*/
+form input, form textarea, form select {
+  width: 90%;
+  padding: 5px;
+  margin-bottom: 8px;
+}
+
+
+
