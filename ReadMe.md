@@ -12,7 +12,6 @@ where customers can explore our menu, place orders, view promotions, and connect
 with us.
 
 Purpose <br>
-
 The purpose of 4 Bakers is to bring warmth and joy to our community by providing
 high-quality baked goods that are affordable, flavourful, and made fresh daily.
 
@@ -55,9 +54,10 @@ descriptions
 
 
 Web Features and Functionality <br>
--Homepage:
--About Us: Our story, team, and baking philosophy
-- Menu: Detailed categories for breads, pastries, cakes, cookies, and
+
+ Homepage:
+ - About Us: Our story, team, and baking philosophy
+ - Menu: Detailed categories for breads, pastries, cakes, cookies, and
 beverages
 - Order Online: A form for customers to place orders for pick-up or delivery
 - Custom Orders: Request forms for cakes, catering, or special events
@@ -94,21 +94,17 @@ and design of the website.
 
 
 Technical Requirements
- -HTML
-
- -CSS
-
- -JavaScript
-
- -TypeScript
-
- -Testing on Chrome
+ - HTML
+ - CSS
+ - JavaScript
+ - TypeScript
+ - Testing on Chrome
 
 
 Timeline
- -Proposals completed and submitted – 27/08/2025
+ - Proposals completed and submitted – 27/08/2025
 
- -Website completed and submitted by - 29/09/2025
+ - Website completed and submitted by - 29/09/2025
 
 
 File structure:
@@ -129,30 +125,30 @@ File structure:
 Changelog:
 
 BASED ON FEEDBACK FROM PART 1:<br>
--I have added the readme on github, which i did not include in part 1 <br>
--I have included a changelog, which i did not include in part 1 <br>
--I have included more content on each page than in part one <br>
--I have added menu links on each page to navigate through the website in bold. <br>
--I have added multiple comments/descriptive comments throughout my code, which i did not include in part 1 <br>
--Whilst i did include multiple references in part 1, i have added more in part 2. <br>
--i also included many html tags for the layouts, which i was lacking in part 1 <br>
+- I have added the readme on github, which i did not include in part 1 <br>
+- I have included a changelog, which i did not include in part 1 <br>
+- I have included more content on each page than in part one <br>
+- I have added menu links on each page to navigate through the website in bold. <br>
+- I have added multiple comments/descriptive comments throughout my code, which i did not include in part 1 <br>
+- Whilst i did include multiple references in part 1, i have added more in part 2. <br>
+- i also included many html tags for the layouts, which i was lacking in part 1 <br>
 
--23/09/2025<br>
-added all pages with navigation links only and pushed to github
+23/09/2025<br>
+- added all pages with navigation links only and pushed to github
 
--24/09/2025<br>
-i did the custom order page with css styling and pushed to github
+24/09/2025<br>
+- i did the custom order page with css styling and pushed to github
 
--28/09/2025<br>
-i completed the homepage and customer reviews page with css styling and pushed to github. I also added the readme file. 
+28/09/2025<br>
+- i completed the homepage and customer reviews page with css styling and pushed to github. I also added the readme file. 
 
-At 13:21, i updated the read me file with regards to the layout.<br>
-At 19:22, I completed the menu page and contact us page with css styling and added minor changes to the other pages with regards to css styling and pushed to github. <br>
-At 20:21 i completed the order online page with css styling and pushed to github. <br>
-At 20:27 i pushed this change log that i added to github. <br>
-At 20:43, i added media queries for a responsive design for tablets and phones with the help of w3schools. i also added the reference in the reference list. <br>
-At 20:51 i added a footer on each page with copyright information. <br>
-At 20:55 i added a file structure. <br>
+- At 13:21, i updated the read me file with regards to the layout.<br>
+- At 19:22, I completed the menu page and contact us page with css styling and added minor changes to the other pages with regards to css styling and pushed to github. <br>
+- At 20:21 i completed the order online page with css styling and pushed to github. <br>
+- At 20:27 i pushed this change log that i added to github. <br>
+- At 20:43, i added media queries for a responsive design for tablets and phones with the help of w3schools. i also added the reference in the reference list. <br>
+- At 20:51 i added a footer on each page with copyright information. <br>
+- At 20:55 i added a file structure. <br>
 
 
 
