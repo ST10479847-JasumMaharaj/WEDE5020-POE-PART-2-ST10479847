@@ -11,7 +11,9 @@ p {
   font-size: 18px;       /* bigger text */
   font-weight: bold;     /* make it bold and more visuaaly appealing*/
 }
-.nav {
+
+    @media (min-width: 1025px) {
+      .nav {
     list-style-type: none;           
     margin: 0;                    
     padding: 0;                   
@@ -142,7 +144,71 @@ button {
   font-size: 1.1rem; /*slightly larger font for better visibilty*/
 }
 
+/*================================================================================================*/
+/*Order online page styling*/
 
+/*styling for the table*/
+.cart {
+  margin: 30px auto;
+  width: 80%;
+  text-align: center;
+}
+
+.cart table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+}
+
+.cart th, .cart td {
+  border: 1px solid #000000;
+  background-color: #fffafa;
+  padding: 12px;
+}
+
+.cart th {
+  background-color: #f4c2c2;
+}
+/*styling for banking details in bold to make it clear for the user*/
+.banking-details {
+  border: 2px solid #000000;
+  padding: 10px;
+  margin: 15px 0;
+  background: #fff3cd;
+  color: #333;
+}
+/*styling for the check out form*/
+.order-form {
+  margin: 30px auto;
+  width: 60%;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background: #fff8f0;
+}
+/*styling for the user input areas*/
+.order-form input, 
+.order-form textarea, 
+.order-form select {
+  margin-bottom: 10px;
+  padding: 8px;
+  border-radius: 5px;
+  border: 2px solid #0e0e0e;
+}
+/*styling for the place order button*/
+.order-form button {
+  background-color: #ffd51c;
+  color: rgb(0, 0, 0);
+  padding: 10px;
+  border: 2px solid #0e0e0e;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+/*when the user hovers on the button it will change to a darker colour*/
+.order-form button:hover {
+  background-color: #9c6d2f;
+}
 /*================================================================================================*/
 
 /*css styling for the contact us page */
@@ -176,5 +242,4 @@ form input, form textarea, form select {
   margin-bottom: 8px;
 }
 
-
-
+}

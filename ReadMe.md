@@ -90,10 +90,6 @@ Timeline
 • Proposals completed and submitted – 27/08/2025
 • Website completed and submitted by - 29/09/2025
 
-Changelog:
-
-
-
 
 
 

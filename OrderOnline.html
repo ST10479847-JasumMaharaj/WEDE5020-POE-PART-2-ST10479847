@@ -16,5 +16,86 @@
         <li><a href="CustomerReviews.html">Customer Reviews</a></li>
         <li><a href="ContactUs.html">Contact Us</a></li>
     </ul>
-</body>
+<!--a table showing the user their cart with items they have added from the menu along with the total cost-->
+    <section class="cart">
+    <h2>Your Cart</h2>
+    <table>
+      <tr>
+        <th>Item</th>
+        <th>Quantity</th>
+        <th>Price</th>
+      </tr>
+      <tr>
+        <!--sample of what the cart would look like-->
+        <td>Croissant</td>
+        <td>2</td>
+        <td>R50</td>
+      </tr>
+      <tr>
+        <td>Chocolate Cake</td>
+        <td>1</td>
+        <td>R180</td>
+      </tr>
+      <tr>
+        <!--using <strong to emphasise the heading>-->
+        <td><strong>Total</strong></td>
+        <td></td>
+        <td><strong>R230</strong></td>
+      </tr>
+    </table>
+  </section>
+  <!--the user will be prompted to fill in their details for pickup or delivery-->
+<section class="order-form">
+    <h2>Complete Your Order</h2>
+    <form>
+        <!--they can choose between pickup or delivery-->
+      <label for="order-type"><strong>Pickup or Delivery:</strong></label><br>
+      <select id="order-type" name="order-type" required>
+        <option value="" disabled selected>--Select option--</option>
+        <option value="pickup">Pickup</option>
+        <option value="delivery">Delivery</option>
+      </select><br><br>
+    <!--the user must enter their name, number and address in order to proceed-->
+      <label for="name">Full Name:</label><br>
+      <input type="text" id="name" name="name" required><br><br>
+
+      <label for="cell">Cell Number:</label><br>
+      <input type="tel" id="cell" name="cell" placeholder="e.g. 0821234567" required><br><br>
+
+      <label for="address">Address:</label><br>
+      <textarea id="address" name="address" rows="3" placeholder="123 baker street, glen hills, durban north"></textarea><br><br>
+     <!--the user can also select a time slot of when they would prefer their order to be delivered or ready for pickup-->
+      <label for="time-slot">Preferred Time:</label><br>
+      <select id="time-slot" name="time-slot" required>
+        <option value="" disabled selected>--Select a time slot--</option>
+        <option value="8-10am">8:00 - 10:00 AM</option>
+        <option value="10-12pm">10:00 - 12:00 PM</option>
+        <option value="12-2pm">12:00 - 2:00 PM</option>
+        <option value="2-4pm">2:00 - 4:00 PM</option>
+        <option value="4-6pm">4:00 - 6:00 PM</option>
+      </select><br><br>
+<!--the user has 3 payment option: pay cash on arrival, card on arrival or eft-->
+      <label for="payment">Payment Method:</label><br>
+      <select id="payment" name="payment" required>
+        <option value="" disabled selected>--Select payment method--</option>
+        <option value="cash">Cash on Arrival</option>
+        <option value="card">Card on Arrival</option>
+        <option value="eft">EFT</option>
+      </select><br><br>
+</form><br>
+<!--the bakery's banking details-->
+<form id="bank-details">
+      <div class="banking-details">
+        <p><strong>For EFT payments:</strong></p>
+        <p>Bank: FNB</p>
+        <p>Account Number: 123456789</p>
+        <p>Branch Code: 250655</p>
+        <p>Reference: Your Name</p>
+      </div>
+<!--a button to submit their order-->
+      <button type="submit">Place Order</button>
+</form>
+       
+  </section>
+    </body>
 </html>
