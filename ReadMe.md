@@ -150,6 +150,13 @@ BASED ON FEEDBACK FROM PART 1:<br>
 - At 20:51 i added a footer on each page with copyright information. <br>
 - At 20:55 i added a file structure. <br>
 
+01, 02, 03/11/2025<br>
+- Following my results and feedback from part 2, i decided to make changes, i have included a more responsive design.<br>
+- I have slightly adjusted my colour scheme with regards to the entire website.<br>
+- I decided to add the logo, which i did not include the last time. I have also decided to use images of the people who actually once owned 4 Bakers, which happens to be my family, with their consent. I thought why not use the real thing which in turn also makes the website more authentic.<br>
+- I added functionality in the website in the js file. I have added things like popup messages for positive and negative feedback for the user.<br>
+- I have also added more references to the list in most aspects.<br>
+- I have included a new page, called the "enquiry page" as per instructions in part 3.
 
 
 References:
@@ -183,6 +190,30 @@ https://stackoverflow.com/questions/54264689/how-do-i-embed-google-maps-url-to-w
 
 w3Schools, CSS Media Queries, Available at: https://www.w3schools.com/css/css3_mediaqueries.asp
 [Accessed 28 September 2025]
+
+w3Schools, (n.d), HTML Images, Available at: https://www.w3schools.com/html/html_images.asp
+[Accessed 02 November 2025]
+
+w3Schools, (n.d), HTML Quotation and Citation Elements, Available at: https://www.w3schools.com/html/html_quotation_elements.asp
+[Accessed 02 November 2025]
+
+w3Schools, (n.d), HTML Tables, Available at: https://www.w3schools.com/html/html_tables.asp
+[Accessed 02 November 2025]
+
+w3Schools, (n.d), HTML JavaScript, Available at: https://www.w3schools.com/html/html_scripts.asp
+[Accessed 02 November 2025]
+
+w3Schools, (n.d), HTML Forms, Available at: https://www.w3schools.com/html/html_forms.asp
+[Accessed 02 November 2025]
+
+w3Schools, (n.d), HTML CSS, Available at: https://www.w3schools.com/html/html_css.asp
+[Accessed 02 November 2025]
+
+w3Schools, (n.d), HTML Text Formatting, Available at: https://www.w3schools.com/html/html_formatting.asp
+[Accessed 02 November 2025]
+
+
+
 
 
 IMAGES
@@ -260,3 +291,10 @@ Accessed 28/09/2025
 
 Pinterest, (n.d), Pineapple Upside Down Cake-Simply Scratch, Available at: https://i.pinimg.com/1200x/10/a3/cb/10a3cbd0fc6e93cc6dd329ac48c1db45.jpg
 Accessed 28/09/2025
+
+Lab 24, (2016), OUR TEAM, Available at: https://www.lab24.co.za/for-doctors/
+Accessed 02/11/2025
+
+Maharaj, K, (2021), A Woman in AgriBusiness Excels! - Kershni Maharaj, Head of Strategy, Dealer & Distribution Development for AGCO Africa - TopCo Media, Available at: https://www.linkedin.com/posts/kershni-maharaj-6450399_a-woman-in-agribusiness-excels-kershni-activity-6853303215711125504-1mC-
+Accessed 02/11/2025
+
