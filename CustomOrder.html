@@ -1,94 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>4bakers</title>
-    <link rel="stylesheet" href="css-assets/style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>4 Bakers - Custom Order</title>
+  <link rel="stylesheet" href="css-assets/style.css" />
 </head>
 <body class="custom-order-page">
-    <ul class="nav">
-        <li><a href="Homepage.html">Home page</a></li>
-        <li><a href="AboutUs.html">About us</a></li>
-        <li><a href="Menu.html">Menu</a></li>
-        <li><a href="CustomOrder.html">Custom Order</a></li>
-        <li><a href="OrderOnline.html">Order Online</a></li>
-        <li><a href="CustomerReviews.html">Customer Reviews</a></li>
-        <li><a href="ContactUs.html">Contact Us</a></li>
-    </ul>
+  <ul class="nav">
+    <li><a href="Homepage.html">Home page</a></li>
+    <li><a href="AboutUs.html">About us</a></li>
+    <li><a href="Menu.html">Menu</a></li>
+    <li><a href="CustomOrder.html" class="active">Custom Order</a></li>
+    <li><a href="OrderOnline.html">Order Online</a></li>
+    <li><a href="CustomerReviews.html">Customer Reviews</a></li>
+    <li><a href="ContactUs.html">Contact Us</a></li>
+    <li><a href="Enquiry.html">Enquiry</a></li>
+  </ul>
 
-
-<!--Header that shows the user is currently on the custom orders page-->
   <header>
     <h1>Custom Orders</h1>
   </header>
 
+  <h2>Create Your Perfect Cake - R200</h2>
+  <form id="customForm">
+    <label for="cake-type">Cake Type:</label>
+    <select id="cake-type" name="cake-type" required>
+      <option value="" disabled selected hidden>-- Select Cake Type --</option>
+      <option value="Sponge">Sponge</option>
+      <option value="Cheesecake">Cheesecake</option>
+      <option value="Fruit Cake">Fruit Cake</option>
+      <option value="Bundt">Bundt cake</option>
+      <option value="Upside Down Cake">Upside down cake</option>
+    </select>
 
-    <h2>Create Your Perfect Cake</h2>
-    <form id="customForm">
-         <!-- cake type dropdown box that will allow the user to choose a cake type -->
-      <label for="cake-type">Cake Type:</label>
-      <select id="cake-type" name="cake-type">
-        <option value="" disabled selected hidden>-- Select Cake Type --</option> <!--will display "Select Cake Type" by default instead of the first option in the dropdown box. it is a much more neater and less confusing option-->
-        <option value="Sponge">Sponge</option>
-        <option value="Cheesecake">Cheesecake</option>
-        <option value="Fruit Cake">Fruit Cake</option>
-        <option value="Bundt">Buntd cake</option>
-        <option value="upside down cake">Upside down cake</option>
-      </select>
+    <label for="flavor">Flavor:</label>
+    <select id="flavor" name="flavor" required>
+      <option value="" disabled selected hidden>-- Select Flavour --</option>
+      <option value="Chocolate">Chocolate</option>
+      <option value="Vanilla">Vanilla</option>
+      <option value="Red Velvet">Red Velvet</option>
+      <option value="Carrot">Carrot Cake</option>
+      <option value="Coffee">Coffee</option>
+      <option value="Banana">Banana</option>
+      <option value="Black Forest">Black Forest</option>
+      <option value="Coconut">Coconut</option>
+      <option value="Lemon">Lemon</option>
+      <option value="Orange">Orange</option>
+      <option value="Pineapple">Pineapple</option>
+      <option value="Blueberry">Blueberry</option>
+      <option value="Strawberry">Strawberry</option>
+    </select>
 
-      <!-- cake flavour dropdown box that will allow the user to choose a cake flavour -->
-      <label for="flavor">Flavor:</label>
-      <select id="flavor" name="flavor">
-        <option value="" disabled selected hidden>-- Select Flavour --</option> <!--will display "Select flavour" by default instead of the first option in the dropdown box. it is a much more neater and less confusing option-->
-        <option value="Chocolate">Chocolate</option>
-        <option value="Vanilla">Vanilla</option>
-        <option value="Red Velvet">Red Velvet</option>
-        <option value="Carrot">Carrot Cake</option>
-        <option value="coffee">Coffee</option>
-        <option value="banana">Banana</option>
-        <option value="black forest">Black forest</option>
-        <option value="coconut">Coconut</option>
-        <option value="lemon">Lemon</option>
-        <option value="orange">Orange</option>
-        <option value="pineappple">Pineapple</option>
-        <option value="Blueberry">Blueberry</option>
-        <option value="strawberry">strawberry</option>
-      </select>
+    <label for="filling">Filling:</label>
+    <select id="filling" name="filling" required>
+      <option value="" disabled selected hidden>-- Select Filling --</option>
+      <option value="Strawberry Jam">Strawberry Jam</option>
+      <option value="Chocolate Ganache">Chocolate Ganache</option>
+      <option value="Cream Cheese">Cream Cheese</option>
+      <option value="Custard">Custard</option>
+      <option value="Buttercream">Buttercream (Plain)</option>
+      <option value="Fresh Cream">Fresh Cream</option>
+    </select>
 
-      <!-- cake filling dropdown box that will allow the user to choose a cake filling -->
-       <label for="filling">Filling:</label>
-      <select id="filling" name="filling">
-        <option value="" disabled selected hidden>-- Select Filling --</option> <!--will display "Select Filling" by default instead of the first option in the dropdown box. it is a much more neater and less confusing option-->
-        <option value="strawberry jam">Strawberry jam</option>
-        <option value="chocolate ganache">Chocolate Ganache</option>
-        <option value="cream cheese">Cream Cheese</option>
-        <option value="custard">Custard</option>
-        <option value="buttercream">Buttercream (Plain)</option>
-        <option value="fresh cream">Fresh Cream</option>
-      </select>
+    <label for="size">Size:</label>
+    <select id="size" name="size" required>
+      <option value="" disabled selected hidden>-- Select Size --</option>
+      <option value="Small">Small (30cm)</option>
+      <option value="Medium">Medium (45cm)</option>
+      <option value="Large">Large (60cm)</option>
+    </select>
 
-      <!-- cake size dropdown box that will allow the user to choose a cake size -->
-      <label for="size">Size:</label>
-      <select id="size" name="size">
-        <option value="" disabled selected hidden>-- Select Size --</option> <!--will display "Select Size" by default instead of the first option in the dropdown box. it is a much more neater and less confusing option-->
-        <option value="Small">Small (30cm)</option>
-        <option value="Medium">Medium (45cm)</option>
-        <option value="Large">Large (60cm)</option>
-      </select>
+    <label for="message">Custom Message/Instructions:</label>
+    <textarea id="message" name="message" rows="4" placeholder="e.g. Happy Birthday, gluten-free please"></textarea>
 
-      <!-- custom message box that will allow the user to add a custom message or any othe instructions for the bakery -->
-      <label for="message">Custom Message/Instructions:</label>
-      <textarea id="message" name="message"></textarea>
-
-      <label for="submit">Click "Submit" below to add your custom order to your cart:</label>
-      <button type="submit">Add custom order to cart</button>
-      
-    </form>
-
+    <button type="submit">Add custom order to cart</button>
+  </form>
 
   <footer>
     <p>&copy; 2025 4 Bakers | All Rights Reserved</p>
   </footer>
+  <script src="js-assets/main.js"></script>
 </body>
 </html>

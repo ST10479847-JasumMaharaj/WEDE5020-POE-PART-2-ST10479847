@@ -1,52 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>4bakers</title>
-    <link rel="stylesheet" href="css-assets/style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>4 Bakers - Customer Reviews</title>
+  <link rel="stylesheet" href="css-assets/style.css" />
 </head>
 <body>
-    <ul class="nav">
-        <li><a href="Homepage.html">Home page</a></li>
-        <li><a href="AboutUs.html">About us</a></li>
-        <li><a href="Menu.html">Menu</a></li>
-        <li><a href="CustomOrder.html">Custom Order</a></li>
-        <li><a href="OrderOnline.html">Order Online</a></li>
-        <li><a href="CustomerReviews.html">Customer Reviews</a></li>
-        <li><a href="ContactUs.html">Contact Us</a></li>
-    </ul>
-    <h1>Customer Reviews</h1>
-    <section class="reviews">
-      <!--a list of customer reviews with star ratings and pictures-->
-      <div class="review">
-        <p>"The best bakery in town! Their chocolate cake is to die for." – Sarah M. &#9733; &#9733; &#9733; &#9733; 	&#11242;</p>
-      </div>
-         <img src="https://i.pinimg.com/1200x/fd/49/15/fd49150a45f56427ddc5da1da08861f4.jpg" alt="chocolate cake" width="400" height="300">
-      
-         <div class="review">
-        <p>"Always fresh, always delicious. I love their croissants." – James L. &#9733; &#9733; &#9733; &#9733; &#11242;</p>
-      </div>
-      <img src="https://i.pinimg.com/1200x/36/c1/a4/36c1a4bb334adc1a52ac628d91ca7622.jpg" alt="croissants" width="400" height="300">
-      
-      <div class="review">
-        <p>"Our go-to bakery for family celebrations. 5 stars!" – Priya K. &#9733; &#9733; &#9733; &#9733; &#9733;</p>
-      </div>
-      <img src="https://i.pinimg.com/736x/e3/69/e0/e369e0142caf404f7a7b063c1849f24f.jpg" alt="boxes of cakes" width="400" height="300">
+  <ul class="nav">
+    <li><a href="Homepage.html">Home page</a></li>
+    <li><a href="AboutUs.html">About us</a></li>
+    <li><a href="Menu.html">Menu</a></li>
+    <li><a href="CustomOrder.html">Custom Order</a></li>
+    <li><a href="OrderOnline.html">Order Online</a></li>
+    <li><a href="CustomerReviews.html" class="active">Customer Reviews</a></li>
+    <li><a href="ContactUs.html">Contact Us</a></li>
+    <li><a href="Enquiry.html">Enquiry</a></li>
+  </ul>
 
+  <h1>Customer Reviews</h1>
+  <section class="reviews" id="reviews-section">
+    <div class="review">
+      <blockquote>"The best bakery in town! Their chocolate cake is to die for."</blockquote>
+      <footer> – Sarah M. ★★★★☆</footer>
+      <img src="https://i.pinimg.com/1200x/fd/49/15/fd49150a45f56427ddc5da1da08861f4.jpg" alt="Chocolate cake" width="400" height="300" />
+    </div>
 
-      <div class="review">
-        <p>"The best quality, best customer service and overall a 10/10 experience!" - Leah M &#9733; &#9733; &#9733; &#9733; &#9733;</p>
-      </div>
-      <img src="https://i.pinimg.com/1200x/f9/d7/01/f9d70167fa900e094e4db595bd285711.jpg" alt="customer service" width="400" height="300">
-      
-    </section>
-    <footer>
+    <div class="review">
+      <blockquote>"Always fresh, always delicious. I love their croissants."</blockquote>
+      <footer>– James L. ★★★★☆</footer>
+      <img src="https://i.pinimg.com/1200x/36/c1/a4/36c1a4bb334adc1a52ac628d91ca7622.jpg" alt="Croissants" width="400" height="300" />
+    </div>
+
+    <div class="review">
+      <blockquote>"Our go-to bakery for family celebrations. 5 stars!"</blockquote>
+      <footer>– Priya K. ★★★★★</footer>
+      <img src="https://i.pinimg.com/736x/e3/69/e0/e369e0142caf404f7a7b063c1849f24f.jpg" alt="Boxes of cakes" width="400" height="300" />
+    </div>
+
+    <div class="review">
+      <blockquote>"The best quality, best customer service and overall a 10/10 experience!"</blockquote>
+      <footer>– Leah M. ★★★★★</footer>
+      <img src="https://i.pinimg.com/1200x/f9/d7/01/f9d70167fa900e094e4db595bd285711.jpg" alt="Customer service" width="400" height="300" />
+    </div>
+  </section>
+
+  <section class="add-review">
+    <h2>Add Your Review</h2>
+    <form id="reviewForm">
+      <label for="reviewerName">Your Name:</label><br />
+      <input type="text" id="reviewerName" name="reviewerName" required /><br /><br />
+
+      <label for="reviewText">Your Review:</label><br />
+      <textarea id="reviewText" name="reviewText" rows="4" required></textarea><br /><br />
+
+      <label for="starRating">Star Rating:</label><br />
+      <select id="starRating" name="starRating" required>
+        <option value="" disabled selected>--Select stars--</option>
+        <option value="1">★☆☆☆☆</option>
+        <option value="2">★★☆☆☆</option>
+        <option value="3">★★★☆☆</option>
+        <option value="4">★★★★☆</option>
+        <option value="5">★★★★★</option>
+      </select><br /><br />
+
+      <button type="submit">Add Review</button>
+    </form>
+  </section>
+
+  <footer>
     <p>&copy; 2025 4 Bakers | All Rights Reserved</p>
   </footer>
+<script src="js-assets/main.js"></script>
 </body>
 </html>
-
 <!--CODE ATTRIBUTION-->
 <!--TITLE: Star Symbols-->
 <!--AUTHOR: HTML Symbols-->
