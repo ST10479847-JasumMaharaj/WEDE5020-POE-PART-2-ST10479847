@@ -118,6 +118,8 @@ File structure:
 ├── order-online.html # Order Online page <br>
 ├── reviews.html # Customer Reviews page <br>
 ├── contact.html # Contact Us page <br>
+├── enquiry.html # enquiry page <br>
+├── main.js # External JavaScript file <br>
 ├── style.css # External stylesheet <br>
 └── README.md # Project documentation <br>
 
@@ -155,8 +157,9 @@ BASED ON FEEDBACK FROM PART 1:<br>
 - I have slightly adjusted my colour scheme with regards to the entire website.<br>
 - I decided to add the logo, which i did not include the last time. I have also decided to use images of the people who actually once owned 4 Bakers, which happens to be my family, with their consent. I thought why not use the real thing which in turn also makes the website more authentic.<br>
 - I added functionality in the website in the js file. I have added things like popup messages for positive and negative feedback for the user.<br>
+- I have also updated the file structure above. <br>
 - I have also added more references to the list in most aspects.<br>
-- I have included a new page, called the "enquiry page" as per instructions in part 3.
+- I have included a new page, called the "enquiry page" as per instructions in part 3. <br>
 
 
 References:
